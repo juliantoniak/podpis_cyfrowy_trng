@@ -1,1 +1,17 @@
+1) OK: klucz, podpis, plik          |  OK
+2) OK: klucz, podpis, NIE: plik     |  OK
+3) OK: klucz, plik, NIE: podpis     |  OK
+4) OK: podpis, plik, NIE: klucz     |  czesciowo OK; przy zmianie klucza jakos w jego srodku dziala 
+                                        (tzn pojawia sie kominikat, ze autentykacja sie nie udala)
+                                        ale przy zmianie klucza w jego poczatkowych elementach niestety program 
+                                        wyrzuca blad:     raise ValueError("RSA key format is not supported")
+                                        ValueError: RSA key format is not supported
 
+                                        po opakowaniu funkcji ładowania pliku w try except odpowiedni komunikat 
+                                        pojawia sie teraz w kazdym przypadku
+
+5) OK: klucz, NIE: podpis, plik     |  OK
+6) OK: podpis, NIE: klucz, plik     |  OK
+7) OK: plik, NIE: klucz, podpis     |  OK
+
+8) NIE: klucz, podpis, plik         |  OK
