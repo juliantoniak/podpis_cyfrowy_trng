@@ -1,20 +1,22 @@
-Data wykonania: 06.06.2023 r.
+Data wykonania: 14.06.2023 r.
 Autor: Julia Antoniak
 
+## A ##
 Uruchomienie skryptu po stronie użytkownika A daje do wyboru opcje:
 - wygenerowania nowego klucza RSA
-- podpisania i wysłania plików
+- podpisania i wysłania plików (jedna akcja)
 - zakończenia programu
 
 Opcja wysłania plików otwiera drugie menu gdzie wybieramy plik do podpisu i wysłania (lub też kończymy program).
 
-
+## B ##
 Uruchomienie skryptu po stronie B daje do wyboru opcje:
 - sprawdzenie poprawności, autentyczności wybranego pliku (z tych, które już istnieją w folderze z otrzymanymi plikami)
 - zakończenie programu
 
+#######
 Przed rozpoczęciem programu możliwe jest usunięcie ZAWARTOŚCI folderów:
-- A/keys (ale następnie należy wygenerować nowe)
+- A/keys (ale następnie należy wygenerować nowe !!)
 - A/signatures
 - B/received_files
 - B/received_signatures
