@@ -14,7 +14,7 @@ Uruchomienie skryptu po stronie B daje do wyboru opcje:
 - sprawdzenie poprawności, autentyczności wybranego pliku (z tych, które już istnieją w folderze z otrzymanymi plikami)
 - zakończenie programu
 
-#######
+
 Przed rozpoczęciem programu możliwe jest usunięcie ZAWARTOŚCI folderów:
 - A/keys (ale następnie należy wygenerować nowe !!)
 - A/signatures
@@ -22,7 +22,7 @@ Przed rozpoczęciem programu możliwe jest usunięcie ZAWARTOŚCI folderów:
 - B/received_signatures
 
 
-######## DZIAŁANIE PROGRAMU ########
+## DZIAŁANIE PROGRAMU ##
 
 Generowanie kluczy RSA:
 - na podstawie ciągu bitów trng tworzone są liczby pierwsze p i q; 
