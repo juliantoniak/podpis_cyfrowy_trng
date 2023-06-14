@@ -23,6 +23,7 @@ Przed rozpoczęciem programu możliwe jest usunięcie ZAWARTOŚCI folderów:
 
 
 ######## DZIAŁANIE PROGRAMU ########
+
 Generowanie kluczy RSA:
 - na podstawie ciągu bitów trng tworzone są liczby pierwsze p i q; 
 - na podsatwie p i q tworzone są inne liczby (e, d, n) potrzebne do wygenerowania pary kluczy
